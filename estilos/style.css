@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/fondoA.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.logo {
+    max-height: 60px;
+}
+
+.navbar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    position: relative;
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+}
+
+.navbar ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    padding: 0;
+}
+
+.navbar ul li:hover > ul {
+    display: block;
+}
+
+.navbar ul ul li {
+    display: inline-block;
+}
+
+.navbar ul ul a {
+    padding: 10px;
+    color: white;
+    white-space: nowrap;
+}
+
+.navbar ul ul a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-bottom a {
+    color: white;
+    text-decoration: none;
+}

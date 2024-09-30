@@ -1,0 +1,61 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('../imagenes/fondoA.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+          
+        }
+
+        h1 {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+            max-width: 800px;  
+              color: white;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between; /* Distribuir elementos horizontalmente */
+            flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+            margin: 0 -10px; /* Espacio a los lados */
+        }
+
+        li {
+            background-color: #ccccff;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            flex-basis: calc(33.33% - 20px); /* Ancho de cada elemento con espacio a los lados */
+            margin: 0 10px; /* Espacio entre elementos */
+        }
+
+        h3 {
+            color: #006666;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+        p {
+            color: #0056b3;
+        }

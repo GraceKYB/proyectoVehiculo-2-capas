@@ -1,0 +1,86 @@
+/* Estilo para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../imagenes/fondoA.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1 {
+    background-color: rgba(255, 255, 255, 0.9); /* Nuevo color de fondo */
+    color: #000000; /* Nuevo color del texto */
+    padding: 5px ; /* Ajusta el relleno según sea necesario */
+    border-radius: 5px;
+    text-align: center;/* Ajusta el radio del borde si es necesario */
+}
+/* Contenedor para centrar la tabla */
+.container {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilo para los encabezados */
+th {
+    background-color: #5a6268; /* Color de fondo del encabezado */
+    color: #5a6268; /* Color del texto del encabezado */
+    padding: 10px;
+}
+
+/* Estilo para las celdas */
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: #cccccc;
+}
+
+/* Estilo para las filas al pasar el mouse */
+tr:hover td {
+    background-color: #cce5ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Añade sombra al pasar el mouse */
+}
+
+/* Estilo para los botones de acción */
+.boton {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Cambiar el color de fondo cuando el cursor está sobre el botón */
+.boton:hover {
+    background-color: #000000;
+}
+th:nth-child(1), /* # */
+th:nth-child(2), /* Nombre */
+th:nth-child(3), /* Modelo */
+th:nth-child(4), /* Marca */
+th:nth-child(5), /* Color */
+th:nth-child(6), /* Año */
+th:nth-child(7), /* Precio */
+th:nth-child(8), /* Stock */
+th:nth-child(9), /* Selección */
+th:nth-child(10), /* Imagen */
+th:nth-child(11) /* Cantidad */
+{
+    background-color: #5a6268;
+    color: #fff;
+}

@@ -1,0 +1,93 @@
+/* Estilo para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/fondoA.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Para colocar los elementos en columna */
+}
+
+/* Contenedor para el título */
+.title-container {
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo del título */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espacio entre el título y el resto */
+}
+
+/* Estilo para el título */
+h1 {
+    color: #ffffff; 
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #000000; /* Color del texto del título */
+}
+
+/* Contenedor para centrar la tabla y el botón */
+.container {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8); /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Estilo para el botón */
+.boton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    display: inline-block;
+    margin-bottom: 20px; /* Espacio entre el botón y la tabla */
+}
+
+/* Cambiar el color de fondo cuando el cursor está sobre el botón */
+.boton:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px; /* Espacio entre el botón y la tabla */
+}
+
+/* Estilo para los encabezados */
+th {
+    background-color: #cccccc; /* Color de fondo del encabezado */
+    color: #000000; /* Color del texto del encabezado */
+    padding: 10px;
+}
+
+/* Estilo para las celdas */
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: #cccccc;
+}
+
+/* Estilo para las filas al pasar el mouse */
+tr:hover td {
+    background-color: #cce5ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Añade sombra al pasar el mouse */
+}
+
+/* Estilo para las filas al pasar el mouse */
+tr:hover {
+    background-color: #cce5ff;
+}

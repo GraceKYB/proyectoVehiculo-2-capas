@@ -1,0 +1,79 @@
+/* Estilo para el cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/fondoA.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Estilo para el contenedor del título */
+.title-container {
+    width: 80%;
+    margin: auto; /* Centra el contenedor en la página */
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Espacio entre el título y la parte superior */
+}
+
+/* Estilo para el título */
+h1 {
+    color: #ffffff; /* Cambia el color del texto a blanco */
+    padding: 5px ; /* Ajusta el relleno según sea necesario */
+    border-radius: 5px;
+    text-align: center; /* Ajusta el radio del borde si es necesario */
+    margin: 0; /* Elimina el margen predeterminado */
+}
+
+/* Contenedor para centrar la tabla */
+.container {
+    width: 60%; /* Reducir el ancho de la tabla */
+    margin: auto; /* Centra el contenedor en la página */
+    background-color: rgba(255, 255, 255, 0.9); /* Color de fondo del contenedor */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Estilo para los encabezados */
+th {
+    background-color: #5a6268; /* Color de fondo del encabezado */
+    color: #5a6268; /* Color del texto del encabezado */
+    padding: 10px;
+}
+
+/* Estilo para las celdas */
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+    background-color: #cccccc;
+}
+
+/* Estilo para las filas al pasar el mouse */
+tr:hover td {
+    background-color: #cce5ff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Añade sombra al pasar el mouse */
+}
+
+/* Estilo para los botones de acción */
+.boton {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+/* Cambiar el color de fondo cuando el cursor está sobre el botón */
